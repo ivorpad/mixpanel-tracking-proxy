@@ -1,4 +1,7 @@
 {
   "schemaVersion": 2,
-  "templateId": "./Dockerfile"
-}
+  "dockerfileLines": [
+        "FROM nginx",
+        "COPY nginx.conf /etc/nginx/nginx.conf"
+    ]
+ }
